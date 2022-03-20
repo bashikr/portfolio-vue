@@ -1,12 +1,13 @@
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customBlue: {
+          DEFAULT: "#288FEB",
+        },
+      },
+    },
   },
-  plugins: [
-    require('tailwind-scrollbar-hide')
-  ],
-}
+  plugins: [require("tailwind-scrollbar-hide")],
+};
