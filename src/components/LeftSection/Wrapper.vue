@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full border shadow-md shadow-slate-500">
+  <div class="h-full border shadow-md shadow-slate-500 overflow-x-scroll scrollbar-hide">
     <Header/>
     <Main/>
     <Footer/>
