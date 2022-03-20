@@ -1,9 +1,21 @@
 <template>
-  <div class=" w-full h-[32.5rem] bg-green-300">
-    <p></p>
+  <div class="w-full">
+    <Education />
+    <WorkExperience />
+    <Recommendations />
   </div>
 </template>
 
 <script>
-export default {};
+import Education from "./MainComponents/Education.vue";
+import WorkExperience from "./MainComponents/WorkExperience.vue";
+import Recommendations from "./MainComponents/Recommendations.vue";
+export default {
+  name: "Main",
+  components: {
+    Education,
+    WorkExperience,
+    Recommendations,
+  },
+};
 </script>
