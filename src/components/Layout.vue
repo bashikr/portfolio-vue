@@ -13,9 +13,9 @@
 </template>
 
 <script>
-import Main from "./Main/Wrapper.vue";
-import LeftSideBar from "./LeftSidebar/Wrapper.vue";
-import RightSideBar from "./RightSideBar.vue";
+import Main from "./MainSection/Wrapper.vue";
+import LeftSideBar from "./LeftSection/Wrapper.vue";
+import RightSideBar from "./RightSection/RightSideBar.vue";
 
 export default {
   name: "Layout",
