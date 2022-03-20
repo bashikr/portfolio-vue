@@ -3,6 +3,7 @@
     <Contact />
     <Languages />
     <ProgrammingLangs />
+    <ProgrammingMerits />
   </main>
 </template>
 
@@ -10,12 +11,14 @@
 import Contact from "./MainComponents/Contact.vue";
 import Languages from "./MainComponents/Languages.vue";
 import ProgrammingLangs from "./MainComponents/ProgrammingLangs.vue";
+import ProgrammingMerits from "./MainComponents/ProgrammingMerits.vue";
 export default {
   name: "Main",
   components: {
     Contact,
     Languages,
     ProgrammingLangs,
+    ProgrammingMerits,
   },
 };
 </script>

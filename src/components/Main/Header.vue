@@ -7,7 +7,7 @@
       alt=""
     />
     <img
-      class="w-[14.6rem] top-0 absolute right-0"
+      class="w-[16.7rem] bottom-10 absolute right-0"
       src="../../assets/bashar-cover.png"
       alt=""
     />
