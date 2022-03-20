@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full bg-blue-700 border shadow-md shadow-slate-500">
+  <div class="h-full border shadow-md shadow-slate-500">
     <Header/>
     <Main/>
     <Footer/>
