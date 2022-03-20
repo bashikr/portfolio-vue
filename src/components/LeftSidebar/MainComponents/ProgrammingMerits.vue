@@ -28,7 +28,7 @@
       </li>
       <li >
         <h6 class="float-left"><fa class="text-customBlue" icon="check" /></h6>
-        <span class="float-right">Bootstrap, CSS, SASS, Tailwind</span>
+        <span class="pl-2">Bootstrap, CSS, SASS, Tailwind</span>
       </li>
     </ul>
   </div>

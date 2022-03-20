@@ -1,8 +1,8 @@
 <template>
   <div class="p-5 text-sm">
     <div class="pb-10 border-b-2 border-slate-300">
-      <div class="content flex flex-row content-start">
-        <div class="basis-1/5 pr-5">
+      <div class="flex items-center">
+        <div class="mr-7">
           <CircleProgress
             :percent="80"
             size="60"
@@ -10,9 +10,9 @@
             border-bg-width="5"
             show-percent="true"
           />
-          <p class="text-sm pt-4">Swedish</p>
+          <p class="text-sm pt-4 pl-1 float-left">Swedish</p>
         </div>
-        <div class="basis-1/5 pr-5">
+        <div class="pr-6">
           <CircleProgress
             :percent="100"
             size="60"
@@ -20,9 +20,9 @@
             border-bg-width="5"
             show-percent="true"
           />
-          <p class="text-sm pt-4">Arabic</p>
+          <p class="text-sm pt-4 pl-3 float-left">Arabic</p>
         </div>
-        <div class="basis-1/5">
+        <div>
           <CircleProgress
             :percent="80"
             size="60"
@@ -30,7 +30,7 @@
             border-bg-width="5"
             show-percent="true"
           />
-          <p class="text-sm pt-4">English</p>
+          <p class="text-sm pt-4 pl-3 float-left">English</p>
         </div>
       </div>
     </div>

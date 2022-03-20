@@ -1,6 +1,6 @@
 <template>
   <div class="content py-4 h-screen flex flex-row content-start">
-    <div class="basis-1/5 mr-8">
+    <div class="basis-1/6 mr-8">
       <LeftSideBar />
     </div>
     <div class="basis-3/4 mr-8">
@@ -29,7 +29,7 @@ export default {
 
 <style>
 .content {
-  max-width: 93.3333%;
+  max-width: 63.3333%;
   margin: auto;
 }
 </style>
