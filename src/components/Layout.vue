@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Main from "./Main.vue";
+import Main from "./Main/Wrapper.vue";
 import LeftSideBar from "./LeftSidebar/Wrapper.vue";
 import RightSideBar from "./RightSideBar.vue";
 

@@ -1,5 +1,5 @@
 <template>
-  <div class=" w-full h-full bg-white">
+  <div class=" w-full h-[32.5rem] bg-green-300">
     <p></p>
   </div>
 </template>
