@@ -1,5 +1,5 @@
 <template>
-  <main class="h-[32.5rem] bg-zinc-100 overflow-x-scroll scrollbar-hide">
+  <main class="h-[39.5rem] bg-zinc-100 overflow-x-scroll scrollbar-hide">
     <Contact />
     <Languages />
     <ProgrammingLangs />

@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white drop-shadow-md h-14">
+  <footer class="bg-white drop-shadow-md h-14  navbar-fixed-bottom">
     <div class="flex-auto space-x-4 p-3">
       <a href="https://github.com/bashikr" target="_blank"
         ><fa class="fa-lg" :icon="['fab', 'github']" />

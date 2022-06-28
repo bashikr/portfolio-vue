@@ -1,6 +1,6 @@
 <template>
   <div class="p-5 text-sm">
-    <ul class="pb-10 border-b-2 border-slate-300">
+    <ul class="pb-10 border-b-2 border-slate-300 ">
       <li class="pb-3">
         <h6 class="float-left">Residence:</h6>
         <span class="float-right">Karlskrona, Sweden</span>

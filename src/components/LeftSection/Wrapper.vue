@@ -1,6 +1,6 @@
 <template>
     <div
-        class="h-full border shadow-md shadow-slate-500 overflow-x-scroll scrollbar-hide w-full"
+        class=" border shadow-md shadow-slate-500  h-screen w-full"
     >
         <Header />
         <Main />
