@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full overflow-x-scroll scrollbar-hide">
+  <div class="w-full h-full md:overflow-x-scroll  md:scrollbar-hide">
     <Header />
     <Main />
     <Footer />

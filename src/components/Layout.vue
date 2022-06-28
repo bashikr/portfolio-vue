@@ -12,7 +12,7 @@
         >
             <Main />
         </div>
-        <div class="">
+        <div >
             <RightSideBar />
         </div>
     </div>
