@@ -14,11 +14,12 @@ export default {
 </script>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'mono','Roboto', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   background-color: #E0E0E6;
+  padding-bottom: 20px;
 }
 </style>
