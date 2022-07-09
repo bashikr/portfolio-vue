@@ -1,6 +1,6 @@
 <template>
     <div class="w-full h-auto bg-white p-4 flex m-auto mb-2">
-        <div class="float-left w-3/5 text-left">
+        <div class="float-left text-left">
             <h1 class="font-bold text-2xl p-4">Education</h1>
             <ul class="px-6 list-disc">
                 <li>
@@ -44,13 +44,6 @@
                     </p>
                 </li>
             </ul>
-        </div>
-        <div class="sm:w-2/12  md:w-full lg:w-80 xl:w-80 h-fit m-auto float-right p-3">
-            <img
-                src="../../../assets/bth-a-building-1.jpg"
-                alt="bth-a-building-1"
-                class="rounded-3xl h-fit "
-            />
         </div>
     </div>
 </template>
