@@ -1,9 +1,9 @@
 <template>
-  <div class="w-full h-screen  min-765:overflow-x-scroll  scrollbar-hide">
-    <Header />
-    <Main />
-    <Footer />
-  </div>
+    <div class="w-full h-screen min-765:overflow-x-scroll scrollbar-hide">
+        <Header />
+        <Main />
+        <Footer />
+    </div>
 </template>
 
 <script>
@@ -12,11 +12,11 @@ import Main from "./Main.vue";
 import Footer from "./Footer.vue";
 
 export default {
-  name: "Wrapper",
-  components: {
-    Header,
-    Main,
-    Footer,
-  },
+    name: "Wrapper",
+    components: {
+        Header,
+        Main,
+        Footer,
+    },
 };
 </script>

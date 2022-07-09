@@ -1,8 +1,10 @@
 <template>
-    <div class="w-full h-auto bg-white p-4 flex m-auto mb-2">
+    <div class="w-full h-auto bg-white p-4 inline-block">
         <div class="float-left w-3/5 text-left">
-            <h1 class="font-bold text-2xl p-4">Education</h1>
-            <ul class="px-6 list-disc">
+            <h1 class="font-bold text-2xl p-4">
+                Projects
+            </h1>
+           <ul class="px-6 list-disc">
                 <li>
                     <p class="pb-1">
                         Jan 2022 – Jun 2022
@@ -45,18 +47,17 @@
                 </li>
             </ul>
         </div>
-        <div class="sm:w-2/12  md:w-full lg:w-80 xl:w-80 h-fit m-auto float-right p-3">
-            <img
-                src="../../../assets/bth-a-building-1.jpg"
-                alt="bth-a-building-1"
-                class="rounded-3xl h-fit "
-            />
-        </div>
+
+        <img
+            src="../../../assets/bth.jpg"
+            alt="my image"
+            class="float-right w-2/5 p-4 mt-28 rounded-3xl"
+        />
     </div>
 </template>
 
 <script>
 export default {
-    name: "Education",
+    name: "Recommendations",
 };
 </script>
